@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #23292f;
+
+}
+
+.first-footer {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    padding: 20px 150px 20px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-item {
+    /* border: 1px solid rgb(157, 255, 0); */
+    /* width: 60%; */
+    padding: 20px;
+}
+
+.footer-item h5 {
+    font-size: 110%;
+    margin: 10px 10px 10px 0px;
+    /* border: 1px solid rgb(0, 255, 213); */
+    width: 110%;
+    color: white;
+
+}
+
+.footer-item p {
+    margin: 5px;
+    color: rgb(175, 173, 173);
+    font-size: 90%;
+}
+
+.footer-item p a {
+    color: rgb(175, 173, 173);
+    text-decoration: none;
+}
+
+.footer-item p a:hover {
+    text-decoration: underline;
+}
+
+footer form {
+    /* border: 1px solid rgb(0, 255, 213); */
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+}
+
+footer form label {
+    color: white;
+    width: 150%;
+    /* border: 1px solid rgb(0, 255, 213); */
+    font-size: 80%;
+    margin-bottom: 5px;
+}
+
+footer form input {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px 0px 5px 0px;
+
+}
+
+footer form button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.social {
+    /* border: 1px solid rgb(0, 255, 213); */
+}
+
+.social h5 {
+    color: white;
+    font-size: 120%;
+    margin: 0;
+    margin: 10px 10px 10px 10px;
+}
+
+.social a {
+    color: rgb(39, 38, 38);
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    background-color: rgb(179, 175, 175);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-pinterest:hover {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+
+footer h6 {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin: 40px 0px 10px 0px;
+}
+
+.apps {
+    display: flex;
+    /* border: 1px solid rgb(0, 255, 213); */
+}
+
+.store-img {
+    /* border: 1px solid rgb(0, 255, 213); */
+    width: 95%;
+    height: 90%;
+    color: white;
+    background-color: #858484;
+    border-radius: 5px;
+}
+
+hr {
+    width: 80%;
+    opacity: 0.3;
+    margin: auto;
+}
+
+.second-footer {
+    color: rgb(175, 173, 173);
+    text-align: center;
+    padding: 20px;
+}
+
+.second-footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    font-size: 90%;
+}
+
+.second-footer a {
+    color: rgb(175, 173, 173);
+    text-decoration: none;
+}
+
+.second-footer a:hover {
+    text-decoration: underline;
+}

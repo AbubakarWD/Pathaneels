@@ -1,0 +1,64 @@
+.offerings {
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* height: 100vh; */
+    padding: 30px;
+    background-color: rgb(245, 246, 247);
+
+}
+
+.offerings h2 {
+    /* border: 1px solid rgb(90, 58, 133); */
+    width: 400px;
+    /* font-weight: 5000; */
+    margin: auto;
+    padding: 20px;
+
+}
+
+.offer-collection {
+    display: grid;
+    /* grid-template-columns: 500px 500px; */
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(2, auto); */
+    grid-gap: 1rem;
+    padding-left: 50px;
+    padding: 20px;
+}
+
+.offers {
+    border: 1px solid rgb(221, 220, 218);
+    padding: 20px;
+    cursor: pointer;
+}
+.offers:hover {
+    box-shadow: 2px 2px 10px 1px rgb(124, 123, 123);
+}
+
+.offers img {
+    width: 50px;
+    /* display: inline; */
+    /* border: 1px solid red; */
+}
+
+.offers h5 {
+    /* border: 1px solid rgb(0, 255, 221); */
+    display: inline;
+    position: relative;
+    top: -9px;
+    left: 20px;
+    text-transform: uppercase;
+    color: blue;
+}
+.offers h5:hover  {
+    color: rgb(138, 138, 231);
+}
+.offers h6 {
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* border: 1px solid rgb(4, 0, 255); */
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: -145px;
+}
