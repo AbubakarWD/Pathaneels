@@ -1,7 +1,7 @@
 .custom-navbar {
     overflow: hidden;
     background-color: #333;
-    /* height: 50px; */
+    height: 50px;
 }
 
 .custom-navbar ul {
