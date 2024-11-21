@@ -66,9 +66,9 @@ select {
 
     .coversec form {
         width: 80vw;
-        height: 20vh;
+        height: 25vh;
         position: relative;
-        top: -10px;
+        top: -20px;
     }
 
     .coversec label {
@@ -88,17 +88,54 @@ select {
         height: 40px;
         font-size: 12px;
     }
+
     .Search-button {
         height: 40px;
         width: 120px;
         /* margin: 100px auto; */
-        margin-top: 30px;
+        margin-top: 40px;
         border-radius: 5px;
         border: none;
         cursor: pointer;
     }
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
-{
+    .coversec  {
+        width: 100vw;
+        height: 75vh;
     
+    }
+    .coversec form {
+        width: 80vw;
+        height: 20vh;
+        position: relative;
+        top: -110px;
+    }
+    .coversec label {
+        font-size: 200px;
+        margin: 100px;
+        position: relative;
+        /* top: 5px; */
+        left: -10px;
+    }
+
+    .coversec div input,
+    select {
+        position: relative;
+        top: -20px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Search-button {
+        height: 30px;
+        width: 100px;
+        /* margin: 100px auto; */
+        margin-top: 22px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
 }

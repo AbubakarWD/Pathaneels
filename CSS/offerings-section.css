@@ -72,3 +72,21 @@
         padding: 20px;
     }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+    .offer-collection {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-gap: 1rem; */
+        /* padding-left: 50px; */
+        /* padding: 20px; */
+    }
+    .offers
+    {
+        width: 100%;
+    }
+    .offers h6
+    {
+            border: 1px solid rgb(0, 255, 221);
+        width: 90%;
+    }
+}

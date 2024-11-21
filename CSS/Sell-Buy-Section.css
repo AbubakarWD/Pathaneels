@@ -83,3 +83,19 @@
         margin-top: 20px;
     }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+    .sellbuy {
+        height: 80vh;
+
+    }
+
+    .custom-container h3 {
+        width: 100%;
+        font-size: 80%;
+        margin: -40px 0px -20px 0px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}

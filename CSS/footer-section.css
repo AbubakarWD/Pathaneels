@@ -1,6 +1,6 @@
 footer {
     background-color: #23292f;
-
+    width: 100vw;
 }
 
 .first-footer {
@@ -146,6 +146,7 @@ footer h6 {
 }
 
 .second-footer {
+        /* border: 1px solid rgb(0, 255, 213); */
     color: rgb(175, 173, 173);
     text-align: center;
     padding: 20px;
@@ -177,14 +178,40 @@ footer h6 {
     .social {
         width: 120%;
     }
-    .apps-download
-    {
+
+    .apps-download {
         position: relative;
         top: -110px;
         left: 300px;
     }
 }
-@media (min-width: 576px) and (max-width: 768px) 
-{
-    
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .first-footer {
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-gap: 0.5rem; */
+        padding: 20px 10px 20px 10px;
+    }
+
+    .footer-item {
+        /* border: 1px solid rgb(0, 255, 221); */
+        /* width: 90%; */
+        font-size: 75%;
+    }
+
+    .social {
+        width: 140%;
+    }
+
+    .apps-download {
+        width: 100%;
+        position: relative;
+        top: -110px;
+        left: 300px;
+    }
+
+    .apps-download h6 {
+        /* border: 1px solid rgb(0, 255, 221); */
+        width: 135%;
+    }
 }
