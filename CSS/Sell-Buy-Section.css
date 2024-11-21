@@ -59,3 +59,27 @@
 .btn {
     margin-top: 20px;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .sellbuy {
+        height: 80vh;
+
+    }
+
+    .custom-container h3 {
+        width: 100%;
+        font-size: 90%;
+        margin: -40px 0px -20px 0px;
+    }
+
+    .row {
+        display: flex;
+        /* flex-direction: column; */
+        /* padding-left: 150px; */
+    }
+
+    .card {
+        /* width: 110%; */
+        margin-top: 20px;
+    }
+}

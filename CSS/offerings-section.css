@@ -62,3 +62,13 @@
     top: 15px;
     left: -145px;
 }
+@media (min-width: 768px) and (max-width: 992px) 
+{
+    .offer-collection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding-left: 50px;
+        padding: 20px;
+    }
+}
