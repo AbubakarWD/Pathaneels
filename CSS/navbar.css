@@ -148,3 +148,46 @@
         display: flex;
     }
 }
+@media (max-width: 575.98px) 
+{
+    .custom-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .custom-navbar ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .custom-navbar li {
+        width: 100%;
+    }
+
+    .custom-navbar a {
+        padding: 10px 20px;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        display: block;
+        background-color: #333;
+        border: none;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .custom-navbar ul {
+        display: none;
+    }
+
+    .custom-navbar ul.show {
+        display: flex;
+    }
+}
