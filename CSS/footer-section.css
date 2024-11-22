@@ -166,7 +166,27 @@ footer h6 {
 .second-footer a:hover {
     text-decoration: underline;
 }
-
+@media (min-width: 992px) and (max-width: 1200px)
+{
+    footer
+    {
+        padding: 0px 100px 0px 100px;
+    }
+    .first-footer {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+        padding: 20px 30px 20px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer-item
+    {
+        font-size: 80%;
+    }
+    .social {
+        margin-top: 30px;
+        width: 120%;
+    }
+}
 @media (min-width: 768px) and (max-width: 992px) {
     .first-footer {
         grid-template-columns: repeat(3, 1fr);
@@ -215,8 +235,8 @@ footer h6 {
         width: 135%;
     }
 }
-@media (max-width: 575.98px) {
-    .first-footer {
+@media (min-width: 0 ) and (max-width: 576px) 
+{    .first-footer {
         grid-template-columns: repeat(3, 1fr);
         /* grid-gap: 0.5rem; */
         padding: 20px 10px 20px 10px;

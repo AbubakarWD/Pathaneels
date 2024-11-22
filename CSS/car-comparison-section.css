@@ -14,13 +14,13 @@
 .info-cont h5 {
     /* border: 1px solid rgb(17, 226, 233); */
     position: relative;
-    left: -280px;
+    left: -250px;
 }
 
 .info-cont p {
     /* border: 1px solid rgb(17, 226, 233); */
     position: relative;
-    left: 280px;
+    left: 250px;
 }
 
 .car-comparing+h5 {
@@ -46,12 +46,12 @@
 .rightside {
     border: 1px solid rgb(233, 228, 228);
     width: 40vw;
-    height: 50vh;
+    height: 60vh;
 }
 
 .rightside button {
     border: 1px solid rgb(43, 194, 240);
-    margin: 30px 10px 10px 150px;
+    margin: 50px 10px 10px 150px;
     padding: 5px 75px 5px 75px;
 
 }
@@ -88,6 +88,7 @@
     width: 30%;
     margin: 20px 0 0 50px;
     font-weight: 500;
+    text-transform:uppercase;
 }
 
 .leftside {
@@ -100,7 +101,7 @@
 .small-side {
     border: 1px solid rgb(233, 228, 228);
     /* width: 40%; */
-    height: 25vh;
+    height: 30vh;
     padding: 27px;
     text-align: center;
 }
@@ -113,14 +114,46 @@
     border-radius: 50%;
     padding: 10px;
     position: relative;
-    top: -40px;
+    /* top: -40px; */
     left: 70px;
 }
 
 .small-side h6 {
     color: black;
     position: relative;
-    top: -50px;
+    top: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .info-cont h5 {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: -200px;
+    }
+
+    .info-cont p {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: 200px;
+    }
+
+    .car-model h5 {
+        /* border: 1px solid rgb(0, 204, 255); */
+        width: 100%;
+        position: relative;
+        top: -15px;
+    }
+    .rightside button {
+        border: 1px solid rgb(43, 194, 240);
+        margin: 25px 10px 10px 120px;
+    
+    }
+    .small-side h5 {
+        width: 40%;
+        text-align: center;
+        position: relative;
+        left: 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -282,8 +315,8 @@
         top: -20px;
     }
 }
-@media (max-width: 575.98px) 
-{
+
+@media (min-width: 0) and (max-width: 576px) {
     .info-cont h5 {
         /* border: 1px solid rgb(17, 226, 233); */
         position: relative;

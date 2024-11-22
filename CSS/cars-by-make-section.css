@@ -17,7 +17,7 @@
     background-color: #eeebeb;
     padding: 10px;
 }
-@media (max-width: 575.98px) 
+@media (min-width: 0 ) and (max-width: 576px) 
 {
     .custom-p {
         /* display: none; */

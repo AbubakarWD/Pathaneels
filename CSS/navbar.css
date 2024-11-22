@@ -83,6 +83,10 @@
 .custom-dropdown:hover .custom-dropdown-content {
     display: block;
 }
+@media (min-width: 992px) and (max-width: 1200px)
+{
+    
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
     .custom-navbar ul {
@@ -148,7 +152,7 @@
         display: flex;
     }
 }
-@media (max-width: 575.98px) 
+@media (min-width: 0 ) and (max-width: 576px) 
 {
     .custom-navbar {
         flex-direction: column;
